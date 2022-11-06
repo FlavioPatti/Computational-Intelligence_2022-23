@@ -3,6 +3,8 @@
 ## Contributors
 -  Leonardo Rolandi (301216)
 -  Flavio Patti (301104)
+
+## Supporters
 -  Giuseppe Pellegrino (303999)
 -  Davide Aiello (303296) 
 
