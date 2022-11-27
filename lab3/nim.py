@@ -34,7 +34,7 @@ class Nim:
     def nimming(self, row: int, num_objects: int): #toglie num_object da una determinata row
         if num_objects <= self._k and self._k is not None: #check per correttezza della mossa
             #se il numero di oggetti da togliere è maggiore di quelli attualmente presenti in quella riga tolgo solo quelli
-            if self._rows[row] < num_objects
+            if self._rows[row] < num_objects:
                 num_objects = self._rows[row]
             
             print(f"tolgo {num_objects} oggetti dalla riga {row}")
