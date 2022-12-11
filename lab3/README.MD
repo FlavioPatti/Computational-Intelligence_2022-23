@@ -17,7 +17,8 @@ For this task we used fixed rules again but this time it is the genome that deci
 At each turn we generate new offsprings and return the best genome based on his fitness which in this case is the winrate.
 
 ### Task3.3 - An agent using minmax
-Given the high amount of computational overhead required in the development of the tree of possible choices of the two challengers, we have implemented the minmax using two types of pruning: the classic alpha-beta pruning seen during the lessons and a further pruning based on the depth of the tree. Below you can find our result.
+Given the high amount of computational overhead required in the development of the tree of possible choices of the two challengers, we have implemented the minmax using two types of pruning: the classic alpha-beta pruning seen during the lessons and a further pruning based on the depth of the tree. Below you can find our result. 
+NB: no results were reported that required a computation time greater than 1 minute.
 
 ## Results
 
