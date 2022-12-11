@@ -15,3 +15,14 @@ We develop an hardcoded agent function that follows some fixed rules (you can se
 ### Task3.2 - An agent using evolved rules
 For this task we used fixed rules again but this time it is the genome that decides which strategy to use based on its alpha and beta parameters.
 At each turn we generate new offsprings and return the best genome based on his fitness which in this case is the winrate.
+
+### Task3.3 - An agent using minmax
+Given the high amount of computational overhead required in the development of the tree of possible choices of the two challengers, we have implemented the minmax using two types of pruning: the classic alpha-beta pruning seen during the lessons and a further pruning based on the depth of the tree. Below you can find our result.
+
+## Results
+
+|  NUM_SIZE | NUM_MATCHES |   OPPONENT       |  WIN_RATE  |
+| --------- | ----------- | --------------   | ---------  |
+|    5      |      10     |   pure_random    |     1.0    |
+|    5      |      10     |    dump_PCI      |     1.0    |
+|    5      |      10     | optimal_strategy |     0.0    |
