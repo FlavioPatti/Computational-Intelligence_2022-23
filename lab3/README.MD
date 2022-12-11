@@ -33,7 +33,7 @@ NB: no results were reported that required a computation time greater than 2 min
 |    6      |      10     | optimal_strategy |     0.0    |
 
 ### Task3.4 - An agent using reinforcement learning
-We decided to train the agent through NUM_MATCHES = 1000 matches against the optimal_strategy, in order to update the rewards. Subsequently the final agent is tested by playing with different strategies. Below you can find our results.
+We decided to train the agent through TRAINING_MATCHES = 1000 matches against the optimal_strategy, in order to update the rewards. Subsequently the final agent is tested by playing with different strategies. Below you can find our results.
 
 NB: no results were reported that required a computation time greater than 2 minute.
 
