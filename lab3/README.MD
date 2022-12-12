@@ -33,21 +33,21 @@ NB: no results were reported that required a computation time greater than 2 min
 |    6      |      10     | optimal_strategy |     0.0    |
 
 ### Task3.4 - An agent using reinforcement learning
-We decided to train the agent through TRAINING_MATCHES = 1000 matches against the optimal_strategy, in order to update the rewards. Subsequently the final agent is tested by playing with different strategies. Below you can find our results.
+We decided to train the agent through TRAINING_MATCHES = 20000 matches against the optimal_strategy (90% of the time) and pure_random (10% of the time) in order to reduce the overfitting and to update the rewards. Subsequently the final agent is tested by playing with different strategies. Below you can find our results.
 
 NB: no results were reported that required a computation time greater than 2 minute.
 
 |  NUM_SIZE | NUM_MATCHES  |   OPPONENT       |  WIN_RATE   |
 | --------- | -----------  | --------------   | ---------   |
-|    5      |      100     |   pure_random    |     0.93    |
-|    5      |      100     |    dump_PCI      |     0.92    |
-|    5      |      100     | optimal_strategy |     0.0     |
-|    6      |      100     |   pure_random    |     0.87    |
-|    6      |      100     |    dump_PCI      |     0.91    |
+|    5      |      100     |   pure_random    |     0.79    |
+|    5      |      100     |    dump_PCI      |     1.0     |
+|    5      |      100     | optimal_strategy |     0.85    |
+|    6      |      100     |   pure_random    |     0.81    |
+|    6      |      100     |    dump_PCI      |     1.0     |
 |    6      |      100     | optimal_strategy |     0.0     |
-|    7      |      100     |   pure_random    |     0.9     |
-|    7      |      100     |    dump_PCI      |     0.9     |
+|    7      |      100     |   pure_random    |     0.75    |
+|    7      |      100     |    dump_PCI      |     1.0     |
 |    7      |      100     | optimal_strategy |     0.0     |
-|    8      |      100     |   pure_random    |     0.78    |
+|    8      |      100     |   pure_random    |     0.86    |
 |    8      |      100     |    dump_PCI      |     0.92    |
 |    8      |      100     | optimal_strategy |     0.0     |
